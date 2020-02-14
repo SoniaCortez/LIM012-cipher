@@ -32,8 +32,8 @@ Los jóvenes buscan siempre pertenecer, ser parte "de" y tener un mundo propio d
 
 ### Mi primer prototipo en papel
 
-<img src = "fotos/img1.jpg">
-
+[!prototipo](./fotos/img1.jpg)
+[prototipo balsamiq](https://balsamiq.cloud/s8rficj/pk20j9c)
 
 ### Feedback
 
