@@ -32,8 +32,7 @@ Los jóvenes buscan siempre pertenecer, ser parte "de" y tener un mundo propio d
 
 ### Mi primer prototipo en papel
 
-
-
+<img src = "fotos/prototipo Cifrado.jpg">
 
 
 ### Feedback
