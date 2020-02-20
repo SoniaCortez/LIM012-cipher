@@ -1,48 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+ <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <strong>
     <header>
-<img src="fotos/image1.jpg" alt="" width="150" height="150">
+      <img src="fotos/image1.jpg" alt="" width="150" height="150">
     </header>
-
-    <h1 id="titulo">Top Secret</h1>
-    </strong>
-    <h2 id="subtitulo">Codifica tus mensajes</h2>
     <br>
-    <main id="bienvenida">Un lenguaje exclusivo para utilizar con tus BFF</main>
+    <main id="bienvenida">
+      <p>Un lenguaje exclusivo para utilizar con tus BFF</p>
+      <h1 id="titulo">Top Secret</h1>
+      <h2 id="subtitulo">Codifica tus mensajes</h2>
+    </main>
     <br>
-
-    <form class="" action="index.html" method="post">
-
-    <textarea name="box1" rows="8" cols="80" placeholder="Ingresa tu mensaje aquí" id="caja1"></textarea>
-    <br>
-      <label for="desplazmientto">Elige número de desplazamiento</label>
-
-      <select class="" name="opciones" id="btn-desplazar">
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-      </select>
-        <br><br>
-
+    <form>
+     <textarea name="box1" rows="8" cols="80" placeholder="Ingresa tu mensaje aquí" id="caja1"></textarea>
+     <br>
+    <label for="desplazmiento">Elige número de desplazamiento</label>
+    <input type="number" name="btn4" value="" id="offset" min="0" max="999">
+    <br><br>
       <input type="button" name="btn1" value="Codificar" id="boton1">
       <input type="button" name="btn2" value="Decodificar" id="boton2">
       <br><br>
       <textarea name="box2" rows="8" cols="80" id="caja2"></textarea>
       <br><br>
       <input type="reset" name="btn3" value="Limpiar" class="" id="boton3">
-
-    </form>
-
-    <footer></footer>
+      </form>
+      <footer></footer>
     <script src="index.js" type="module"></script>
 
   </body>
