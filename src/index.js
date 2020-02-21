@@ -7,21 +7,19 @@ const desplazar = document.getElementById('offset');
 
 codiBtn.addEventListener('click',()=> {
   let box1 = texto1.value;
-  //capturando valor del boton de desplazmiento*/
-  let box3 = desplazar.value;
+  //capturando valor del boton de desplazmiento. Utilizar parseint para que sea numero*/
+  let box3 = parseInt(desplazar.value);
   let box2 = texto2;
-  box2.value = box1.toUpperCase();
+  //en la caja 2 va el resultado encriptado, por eso afrego aqui mi funcion*/
+  box2.value = cipher.encode(box3, box1.toUpperCase());
 });
 
 const decoBtn = document.getElementById('boton2');
 decoBtn.addEventListener('click',()=> {
   let box1 = texto1.value;
-  let box3 = desplazar.value;
+  let box3 = parseInt(desplazar.value);
   let box2 = texto2;
-  box2.value = box1.toUpperCase();
+  box2.value = cipher.decode(box3, box1.toUpperCase());
   console.log(box3);
 });
 console.log(cipher);
-
-const llamado = cipher.encode()
-console.log(llamado);
