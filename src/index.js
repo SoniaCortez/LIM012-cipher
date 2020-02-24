@@ -20,6 +20,6 @@ decoBtn.addEventListener('click',()=> {
   let box3 = parseInt(desplazar.value);
   let box2 = texto2;
   box2.value = cipher.decode(box3, box1.toUpperCase());
-  console.log(box3);
+  //console.log(box3);
 });
 console.log(cipher);
