@@ -22,4 +22,4 @@ decoBtn.addEventListener('click',()=> {
   box2.value = cipher.decode(box3, box1);
   //console.log(box3);//
 });
-console.log(cipher);
+//console.log(cipher);//
