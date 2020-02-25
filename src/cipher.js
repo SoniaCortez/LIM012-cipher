@@ -25,6 +25,7 @@ const cipher = {
         let nuevaPosicion = (ascii-97+desplazamiento)%26+97;
         let alfabeto = String.fromCharCode(nuevaPosicion);
         blockLetters = blockLetters + alfabeto;
+        /*si nada se cumple entonces reconoce los simbolos y le da una nueva posicion*/
       }else{
         let nuevaPosicion = (ascii-33+desplazamiento)%32+33
         let alfabeto = String.fromCharCode(nuevaPosicion);
