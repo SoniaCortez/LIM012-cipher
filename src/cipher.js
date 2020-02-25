@@ -14,21 +14,21 @@ const cipher = {
         blockLetters += ' ';
       }else if(ascii>=65 && ascii<=90){
         /*aplicar algoritmo para obtener la nueva posicion ASCII*/
-        let nuevaPosicion = (ascii-65+desplazamiento)%26+65;
+        let newPlace = (ascii-65+desplazamiento)%26+65;
         /*convertir el ASCII en mi alfabeto. Entre parentesis va el nuevo codigo ASCII obtenida con mi formula*/
-        let alfabeto = String.fromCharCode(nuevaPosicion);
+        let alfabeto = String.fromCharCode(newPlace);
         /*establezco lo que va en la variable vacia letrasUnidas, que es lo que quiero que se almacene*/
         blockLetters = blockLetters + alfabeto;
         //console.log(alfabeto)//
         /*else if para condicionr las minusculas*/
       }else if(ascii>=97 && ascii<=122){
-        let nuevaPosicion = (ascii-97+desplazamiento)%26+97;
-        let alfabeto = String.fromCharCode(nuevaPosicion);
+        let newPlace = (ascii-97+desplazamiento)%26+97;
+        let alfabeto = String.fromCharCode(newPlace);
         blockLetters = blockLetters + alfabeto;
         /*si nada se cumple entonces reconoce los simbolos y le da una nueva posicion*/
       }else{
-        let nuevaPosicion = ascii;
-        let alfabeto = String.fromCharCode(nuevaPosicion);
+        let newPlace = ascii;
+        let alfabeto = String.fromCharCode(newPlace);
         blockLetters = blockLetters + alfabeto
      }
     }
@@ -46,16 +46,16 @@ const cipher = {
       if(ascii == 32){
         blockLetters += ' ';
       }else if(ascii<=90 && ascii>=65){
-        let nuevaPosicion = (ascii-90-desplazamiento)%26+90;
-        let alfabeto = String.fromCharCode(nuevaPosicion);
+        let newPlace = (ascii-90-desplazamiento)%26+90;
+        let alfabeto = String.fromCharCode(newPlace);
         blockLetters = blockLetters + alfabeto;
       }else if(ascii<=122 && ascii>=97){
-        let nuevaPosicion = (ascii-122-desplazamiento)%26+122;
-        let alfabeto = String.fromCharCode(nuevaPosicion);
+        let newPlace = (ascii-122-desplazamiento)%26+122;
+        let alfabeto = String.fromCharCode(newPlace);
         blockLetters = blockLetters + alfabeto;
       }else{
-        let nuevaPosicion = ascii;
-        let alfabeto = String.fromCharCode(nuevaPosicion);
+        let newPlace = ascii;
+        let alfabeto = String.fromCharCode(newPlace);
         blockLetters = blockLetters + alfabeto
      }
     }
