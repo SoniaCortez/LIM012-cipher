@@ -11,7 +11,7 @@ codiBtn.addEventListener('click',()=> {
   let box3 = parseInt(desplazar.value);
   let box2 = texto2;
   /*en la caja 2 va el resultado encriptado, por eso afrego aqui mi funcion*/
-  box2.value = cipher.encode(box3, box1.toUpperCase());
+  box2.value = cipher.encode(box3, box1);
 });
 
 const decoBtn = document.getElementById('boton2');
@@ -19,7 +19,7 @@ decoBtn.addEventListener('click',()=> {
   let box1 = texto1.value;
   let box3 = parseInt(desplazar.value);
   let box2 = texto2;
-  box2.value = cipher.decode(box3, box1.toUpperCase());
+  box2.value = cipher.decode(box3, box1);
   //console.log(box3);
 });
 console.log(cipher);

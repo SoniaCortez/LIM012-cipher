@@ -20,7 +20,16 @@ const cipher = {
         /*establezco lo que va en la variable vacia letrasUnidas, que es lo que quiero que se almacene*/
         blockLetters = blockLetters + alfabeto;
         //console.log(alfabeto)//
-      };
+        /*else if para condicionr las minusculas*/
+      }else if(ascii>=97 && ascii<=122){
+        let nuevaPosicion = (ascii-97+desplazamiento)%26+97;
+        let alfabeto = String.fromCharCode(nuevaPosicion);
+        blockLetters = blockLetters + alfabeto;
+      }else{
+        let nuevaPosicion = (ascii-33+desplazamiento)%32+33
+        let alfabeto = String.fromCharCode(nuevaPosicion);
+        blockLetters = blockLetters + alfabeto
+     }
     }
     return blockLetters
   },
@@ -39,7 +48,15 @@ const cipher = {
         let nuevaPosicion = (ascii-90-desplazamiento)%26+90;
         let alfabeto = String.fromCharCode(nuevaPosicion);
         blockLetters = blockLetters + alfabeto;
-      }
+      }else if(ascii<=122 && ascii>=97){
+        let nuevaPosicion = (ascii-122-desplazamiento)%26+122;
+        let alfabeto = String.fromCharCode(nuevaPosicion);
+        blockLetters = blockLetters + alfabeto;
+      }else{
+        let nuevaPosicion = (ascii-64-desplazamiento)%32+64
+        let alfabeto = String.fromCharCode(nuevaPosicion);
+        blockLetters = blockLetters + alfabeto
+     }
     };
     return blockLetters
   }
