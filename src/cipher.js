@@ -12,6 +12,7 @@ const cipher = {
     /*aplico condicionante para espacios vacios*/
     if(ascii == 32){
       blockLetters += ' ';
+      /*if para condicion, mayusculas*/
     }else if(ascii>=65 && ascii<=90){
       /*aplicar algoritmo para obtener la nueva posicion ASCII*/
       let newPlace = (ascii-65+desplazamiento)%26+65;
@@ -20,12 +21,12 @@ const cipher = {
       /*establezco lo que va en la variable vacia letrasUnidas, que es lo que quiero que se almacene*/
       blockLetters = blockLetters + alfabeto;
       //console.log(alfabeto)//
-      /*else if para condicionr las minusculas*/
+      /*else if para condicionar las minusculas*/
     }else if(ascii>=97 && ascii<=122){
       let newPlace = (ascii-97+desplazamiento)%26+97;
       let alfabeto = String.fromCharCode(newPlace);
       blockLetters = blockLetters + alfabeto;
-      /*si nada se cumple entonces reconoce los simbolos y le da una nueva posicion*/
+      /*si nada se cumple entonces reconoce los simbolos y le da la misma posicion*/
     }else{
       let newPlace = ascii;
       let alfabeto = String.fromCharCode(newPlace);

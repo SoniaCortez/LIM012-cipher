@@ -2,7 +2,9 @@
 <html>
   <head>
  <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+ <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+ <meta "description" content = "Lenguaje codificado y cool que puedes compartir con tu grupo">
+    <title>Cifrado Cesar</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -13,24 +15,28 @@
     <main id="bienvenida">
       <h1 id="titulo">Top Secret</h1>
       <h2 id="subtitulo">Codifica tus mensajes</h2>
-      <p>Un lenguaje exclusivo para utilizar con tus BFF</p>
+      <p>Un lenguaje exclusivo para utilizar con tus BFF. Solo debes ingresar tu texto,
+         indicar el número de desplazamiento que deseas utilizar, dar click y tu mensaje
+         estará listo para ser enviado</p>
     </main>
     <br>
     <form>
-     <textarea name="box1" rows="8" cols="80" placeholder="Ingresa tu mensaje aquí" id="caja1"></textarea>
-     <br>
-    <label for="desplazmiento">Elige número de desplazamiento</label>
-    <input type="number" name="btn4" value="" id="offset" min="0" max="999">
-    <br><br>
-      <input type="button" name="btn1" value="Codificar" id="boton1">
-      <input type="button" name="btn2" value="Decodificar" id="boton2">
-      <br><br>
-      <textarea name="box2" rows="8" cols="80" id="caja2"></textarea>
-      <br><br>
-      <input type="reset" name="btn3" value="Limpiar" class="" id="boton3">
-      </form>
-      <br>
-      <footer>by@soni.cortez.ll</footer>
+       <textarea name="box1" rows="8" cols="80" placeholder="Ingresa tu mensaje aquí" id="caja1"></textarea>
+       <br>
+       <label for="desplazmiento">Elige número de desplazamiento</label>
+       <input type="number" name="btn4" value="" id="offset" min="0" max="999">
+     <br><br>
+       <input type="button" name="btn1" value="Codificar" id="boton1">
+       <input type="button" name="btn2" value="Decodificar" id="boton2">
+       <br><br>
+       <textarea name="box2" rows="8" cols="80" id="caja2"></textarea>
+       <br><br>
+       <input type="reset" name="btn3" value="Limpiar" class="" id="boton3">
+    </form>
+       <br>
+       <footer>
+         <p>by@soni.cortez.ll</p>
+       </footer>
 
     <script src="index.js" type="module"></script>
 
