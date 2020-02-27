@@ -13,29 +13,29 @@
     </header>
     <br>
     <main id="bienvenida">
-      <h1 id="titulo">Top Secret</h1>
-      <h2 id="subtitulo">Codifica tus mensajes</h2>
-      <p>Un lenguaje exclusivo para utilizar con tus BFF. Solo debes ingresar tu texto,
+      <h1 class="titulo">Top Secret</h1>
+      <h2 class="subtitulo">Codifica tus mensajes</h2>
+      <p class="texto">Un lenguaje exclusivo para utilizar con tus BFF. Solo debes ingresar tu texto,
          indicar el número de desplazamiento que deseas utilizar, dar click y tu mensaje
          estará listo para ser enviado</p>
     </main>
     <br>
     <form>
-       <textarea name="box1" rows="8" cols="80" placeholder="Ingresa tu mensaje aquí" id="caja1"></textarea>
+       <textarea name="box1" rows="8" cols="80" placeholder="Ingresa tu mensaje aquí" id="caja1" class="contenedor" required></textarea>
        <br>
        <label for="desplazmiento">Elige número de desplazamiento</label>
-       <input type="number" name="btn4" value="" id="offset" min="0" max="999">
+       <input type="number" name="btn4" value="" id="offset" min="0" max="999" class="seleccion" required>
      <br><br>
-       <input type="button" name="btn1" value="Codificar" id="boton1">
-       <input type="button" name="btn2" value="Decodificar" id="boton2">
+       <input type="button" name="btn1" value="Codificar" id="boton1" class="boton">
+       <input type="button" name="btn2" value="Decodificar" id="boton2" class="boton">
        <br><br>
-       <textarea name="box2" rows="8" cols="80" id="caja2"></textarea>
+       <textarea name="box2" rows="8" cols="80" id="caja2" class="contenedor"></textarea>
        <br><br>
-       <input type="reset" name="btn3" value="Limpiar" class="" id="boton3">
+       <input type="reset" name="btn3" value="Limpiar" class="boton" id="boton3">
     </form>
        <br>
        <footer>
-         <p>by@soni.cortez.ll</p>
+         <p class="pie">by@soni.cortez.ll</p>
        </footer>
 
     <script src="index.js" type="module"></script>
