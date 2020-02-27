@@ -10,7 +10,45 @@ Cada letra del texto original es reemplazada por otra que se encuentra a diferen
 Mi aplicación web servirá para que mi usuario pueda cifrar y descifrar un mensaje secreto compartido por uno o varios amigos dentro de un grupo cerrado, indicando un desplazamiento específico de caracteres.
 
 
-## 3. Objetivos de aprendizaje
+
+## 3. Imagen final de mi proyecto
+
+
+
+
+## 4. Investigación UX
+
+
+## Quiénes son los principales usuarios del producto
+
+Adolescentes y jóvenes que comparten sus gustos, aficiones y actividades con sus amigos cercanos, que les gusta ser parte de grupos donde puedan intercambiar experiencias y secretos con personas afines a ellos.
+
+## Cuáles son los objetivos de los usuarios con relación a mi producto.
+
+* Mantener un lenguaje exclusivo solo para los integrantes del grupo al que pertenecen.
+* Elaborar mensajes codificados que mantendran la privacidad de los mismos.
+
+## Cómo el producto soluciona los problemas o necesidades de mis usuarios
+
+Los jóvenes buscan siempre pertenecer, ser parte "de" y tener un mundo propio donde puedan expresarse libremente. Al poder cifrar y descifrar a voluntad los mensajes que comparten con sus amigos, el producto logra establecer un vínculo emocional y una sensación de pertenencia y exclusividad en el usuario al utilizar un lenguaje que otros no conocen, además de proteger la confidencialidad de los datos compartidos ante una posible intrusión de los padres, algún desconocido o alguien ajeno a su círculo.
+
+### Mi primer prototipo en papel
+
+[prototipo](fotos/img1.jpg)
+[prototipo balsamiq](https://balsamiq.cloud/s8rficj/pk20j9c)
+
+### Feedback
+
+
+
+
+
+### Prototipo final
+
+
+
+
+## 5. Objetivos de aprendizaje
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando
 aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
 y la lógica, utilizando HTML, CSS y JavaScript como herramientas.
@@ -60,37 +98,3 @@ Con los event listeners puedo declarar una inline funcion para realizar una acci
   (`add` | `commit` | `pull` | `status` | `push`).
 * [ ] [Manejo de repositorios de GitHub]
 (https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)  (`clone` | `fork` | `gh-pages`).
-
-## 3. Imagen final de mi proyecto
-
-
-
-
-## 4. Investigación UX
-
-
-## Quiénes son los principales usuarios del producto
-
-Adolescentes y jóvenes que comparten sus gustos, aficiones y actividades con sus amigos cercanos, que les gusta ser parte de grupos donde puedan intercambiar experiencias y secretos con personas afines a ellos.
-
-## Cuáles son los objetivos de los usuarios con relación a mi producto.
-
-* Mantener un lenguaje exclusivo solo para los integrantes del grupo al que pertenecen.
-* Elaborar mensajes codificados que mantendran la privacidad de los mismos.
-
-## Cómo el producto soluciona los problemas o necesidades de mis usuarios
-
-Los jóvenes buscan siempre pertenecer, ser parte "de" y tener un mundo propio donde puedan expresarse libremente. Al poder cifrar y descifrar a voluntad los mensajes que comparten con sus amigos, el producto logra establecer un vínculo emocional y una sensación de pertenencia y exclusividad en el usuario al utilizar un lenguaje que otros no conocen, además de proteger la confidencialidad de los datos compartidos ante una posible intrusión de los padres, algún desconocido o alguien ajeno a su círculo.
-
-### Mi primer prototipo en papel
-
-[prototipo](fotos/img1.jpg)
-[prototipo balsamiq](https://balsamiq.cloud/s8rficj/pk20j9c)
-
-### Feedback
-
-
-
-
-
-### Prototipo final
