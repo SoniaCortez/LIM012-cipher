@@ -25,8 +25,8 @@ describe('cipher', () => {
 
     // Hacker edition
     //it('debería arrojar TypeError cuando se invoca con tipos de argumento incorrectos', () => {
-    //  expect(() => cipher.encode()).toThrow(TypeError);
-    //  expect(() => cipher.encode(0)).toThrow(TypeError);
+      //expect(() => cipher.encode()).toThrow(TypeError);
+      //expect(() => cipher.encode(0)).toThrow(TypeError);
       //expect(() => cipher.encode(null, [])).toThrow(TypeError);
       //expect(() => cipher.encode(0, 0)).toThrow(TypeError);
     });
@@ -55,7 +55,7 @@ describe('cipher', () => {
       //expect(() => cipher.encode(0)).toThrow(TypeError);
       //expect(() => cipher.encode(null, [])).toThrow(TypeError);
       //expect(() => cipher.encode(0, 0)).toThrow(TypeError);
-  //  });
+    });
 
     // Si decides agregar soporte para minúsculas descomenta el test a
     // continuación.
@@ -73,5 +73,3 @@ describe('cipher', () => {
        expect(cipher.decode(33, ' !@')).toBe(' !@');
      });
 //  });
-
-});

@@ -1,6 +1,7 @@
 const cipher = {
   encode : (numero, palabras) => {
-    let letters = palabras;
+
+  let letters = palabras;
   /*variable vacia para establecer mas adelante que voy a almacenar*/
   let blockLetters = '';
   /*variable para desplazamiento elegido*/
@@ -37,7 +38,7 @@ const cipher = {
 },
 
  decode: function(numero, palabras){
-
+  
   let letters = palabras;
   let blockLetters = '';
   let desplazamiento = numero;
