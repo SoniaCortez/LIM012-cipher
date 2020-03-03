@@ -5,5 +5,72 @@ body{
   background-origin: border-box;
   background-size: contain;
 };
+/*: root{
+  --color-p: #FF2F2F;
+}*/
+body{
+  display: block;
+}
+main{
+  display: block;
+  width: 700px;
+  height: 180px;
+}
+.titulo{
+  background: yellow;
+  color: #244B8A;
+  font-size: 3.5em;
+  text-align: center;
+  margin: 20px 50px 0;
+};
+main{
 
- 
+}
+.subtitulo{
+  background: purple;
+  color: #599DC2;
+  font-size: 2em;
+  text-align: center;
+  margin: 10px 50px 0;
+};
+main{
+
+}
+.textoInicio{
+  background: green;
+  color: #244B8A;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 10px 50px 0;
+};
+body{
+
+}
+form{
+  width: 700px;
+  height: 450px;
+}
+.instrucciones{
+  display: block;
+  background: green;
+  color: #FF2F2F;
+  font-size: 1em;
+  text-align: center;
+};
+form{
+
+}
+*{
+  box-sizing: border-box;
+}
+.contenedor{
+  background: #D1CEAF;
+  width: 600px;
+  margin-left: 50px;
+  margin-right: auto;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #CCA157;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px 4px rgba(0,0,0,.5);
+}
