@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
- <meta charset="utf-8">
- <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
-    <title>Cifrado Cesar</title>
-    <link rel="stylesheet" href="style.css" />
+   <meta charset="utf-8">
+   <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+   <title>Cifrado Cesar</title>
+   <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-        <img src="fotos/icono.png" class="logo" width="50" height="40">
+      <img src="fotos/icono.png" class="logo" width="50" height="40">
     </header>
-
     <main>
       <h1 class="titulo">Top Secret</h1>
       <h2 class="subtitulo">Codifica tus mensajes</h2>
       <p class="textoInicio">Un lenguaje exclusivo para utilizar con tus BFF</p>
     </main>
+    <br>
     <form>
        <p class="instrucciones">Ingresa tu texto, elige el número de desplazamiento, dale click y tu mensaje
         estará listo para ser enviado</p>
        <textarea name="box1" rows="8" cols="80" placeholder="Ingresa tu mensaje aquí" id="caja1" class="contenedor" required></textarea>
        <br>
-       <label for="desplazmiento">Elige número de desplazamiento</label>
+    <div>
+       <label for="desplazmiento">Elige número de desplazamiento:</label>
        <input type="number" name="btn4" value="" id="offset" min="0" max="999" class="seleccion" required>
-     <br><br>
-       <input type="button" name="btn1" value="Codificar" id="boton1" class="boton">
-       <input type="button" name="btn2" value="Decodificar" id="boton2" class="boton">
-       <br><br>
+    </div>
+     <br>
+     <div>
+       <input type="button" name="btn1" value="Codificar" id="boton1" class="botonC">
+       <input type="button" name="btn2" value="Decodificar" id="boton2" class="botonD">
+     </div>
+       <br>
+     <div>
        <textarea name="box2" rows="8" cols="80" id="caja2" class="contenedor"></textarea>
        <br><br>
-       <input type="reset" name="btn3" value="Limpiar" class="boton" id="boton3">
+       <input type="reset" name="btn3" value="Limpiar" class="botonL" id="boton3">
+     </div>
     </form>
+    <br>
        <footer>
          <p class="pie">by@soni.cortez.ll</p>
        </footer>
