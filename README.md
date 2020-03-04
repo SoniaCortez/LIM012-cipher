@@ -13,7 +13,7 @@ Mi aplicación web servirá para que mi usuario pueda cifrar y descifrar un mens
 
 ## 3. Imagen final de mi proyecto
 
-![proyectofinal](src/fotos/cifrado.jpg)
+![proyectofinal](src/fotos/Cifrado.jpg)
 
 
 ## 4. Investigación UX
