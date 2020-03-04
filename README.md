@@ -41,7 +41,7 @@ Los jóvenes buscan siempre pertenecer, ser parte "de" y tener un mundo propio d
 
 ### Prototipo final
 
-src=[prototipo](fotos/img2.jpg)
+![prototipo](src/fotos/img2.jpg)
 
 
 ## 5. Objetivos de aprendizaje
@@ -51,9 +51,9 @@ y la lógica, utilizando HTML, CSS y JavaScript como herramientas.
 Reflexiona y luego marca los objetivos que has llegado a **entender** y
 **aplicar** en tu proyecto.
 ### UX
-* [ ] [Diseñar la aplicación pensando y entendiendo al usuario]
+* [x] [Diseñar la aplicación pensando y entendiendo al usuario]
 (https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
-* [ ] [Crear prototipos para obtener feedback e iterar]
+* [x] [Crear prototipos para obtener feedback e iterar]
 (https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/00-sketching/00-sketching)
 * [ ] [Aplicar los principios de diseño visual]
 (https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/01-visual-design/01-visual-design-basics)
