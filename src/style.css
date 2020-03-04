@@ -69,13 +69,13 @@ form{
 }
 .instrucciones{
   /*background: green;*/
-  width: 50%;
+  width: 45%;
   color: #0F1C70;
   font-size: 1em;
   font-family: sans-serif;
   text-align: center;
   font-weight: bold;
-  margin: 5px 15px;
+  margin: 5px 0 5px 30px;
   box-sizing: border-box;
 };
 form{
@@ -83,8 +83,8 @@ form{
 }
 .contenedor{
   background: #D1CEAF;
-  width: 50%;
-  margin-left: 5px;
+  width: 45%;
+  margin-left: 30px;
   margin-right: 10px;
   border-width: 3px;
   border-style: solid;
@@ -101,7 +101,7 @@ label{
   color: #2C598F;
   font-size: 1em;
   font-family: sans-serif;
-  margin: 5px;
+  margin: 5px 5px 5px 30px;
   text-align: left;
   font-weight: bold;
 }
@@ -116,7 +116,7 @@ label{
 .botonC{
   background: #BF9550;
   color: white;
-  width: 15%;
+  width: 10%;
   height: 35px;
   border-width: 1.5px;
   border-style: solid;
@@ -125,12 +125,12 @@ label{
   box-shadow: 6px 6px 8px 4px rgba(0,0,0,.5);
   font-size: 1em;
   font-family: sans-serif;
-  margin: 0 30px 0px 120px;
+  margin: 0 30px 0px 200px;
 }
 .botonD{
   background: #BF9550;
   color: white;
-  width: 15%;
+  width: 10%;
   height: 35px;
   border-width: 1.5px;
   border-style: solid;
@@ -139,12 +139,12 @@ label{
   box-shadow: 6px 6px 8px 4px rgba(0,0,0,.5);
   font-size: 1em;
   font-family: sans-serif;
-  margin: 0 15px;
+  margin: 0 30px;
 }
 .botonL{
   background: #2C598F;
   color: white;
-  width: 12%;
+  width: 10%;
   height: 32px;
   border-width: 1.5px;
   border-style: solid;
@@ -153,7 +153,7 @@ label{
   box-shadow: 6px 6px 8px 4px rgba(0,0,0,.5);
   font-size: 1em;
   font-family: sans-serif;
-  margin: 0 280px;
+  margin: 0 300px;
 }
 footer{
   display: flex;
