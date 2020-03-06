@@ -71,14 +71,14 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 * [x] [Manejo de eventos del DOM]
 (https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/04-events)
 Con los event listeners puedo declarar una inline funcion para realizar una accion en el button
-* [ ] [Manipulación dinámica del DOM]
+* [x] [Manipulación dinámica del DOM]
 (https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
 ### Javascript
 * [x] [Manipulación de strings]
 (https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/06-strings/01-strings)
 * [x] [Uso de condicionales]
 (https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/01-conditionals-and-loops)
-* [ ] [Uso de bucles]
+* [x] [Uso de bucles]
 (https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/02-loops)
 * [x] [Uso de funciones]
 (https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/javascript/02-flow-control/03-functions)
